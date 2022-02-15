@@ -1,0 +1,10 @@
+body {
+    padding-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.container .button {
+   margin-top: 1rem;
+}

@@ -1,0 +1,12 @@
+body {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+}
+
+.article {
+    display: block;
+    width: 400px;
+}

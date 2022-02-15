@@ -1,0 +1,203 @@
+/* You can add global styles to this file, and also import other style files */
+/*========== FONT FAMILY ==========*/
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Prompt:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --biggest-font-size: 3rem;
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --text-color: #fff;
+}
+
+/*========== BASE ==========*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', sans-serif;
+}
+
+body {
+    background-color: #0a0a0a;
+    color: #fff;
+}
+
+button, input {
+    border: 0;
+    border-radius: .2rem;
+}
+
+button {
+    padding: .3rem;
+    font-size: var(--h3-font-size);
+}
+
+button:hover {
+    opacity: 90%;
+}
+
+input {
+    padding: .3rem;
+    width: 5.6rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    font-size: var(--h3-font-size);
+}
+
+/* ========== POINT ========== */
+.box {
+    position: relative;
+}
+
+.box .point {
+    position: absolute;
+
+    background: #fff;
+    border-radius: 100%;
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(10rem);
+    }
+}
+
+.box .point:nth-child(1) {
+    top: 50px;
+    right: 800px;
+    width: 3.5px;
+    height: 3.5px;
+}
+
+.box .point:nth-child(2) {
+    top: 200px;
+    right: 700px;
+    width: 3.5px;
+    height: 3.5px;
+}
+
+.box .point:nth-child(3) {
+    top: 480px;
+    right: 350px;
+    width: 3.5px;
+    height: 3.5px;
+}
+
+.box .point:nth-child(5) {
+    top: 550px;
+    right: 420px;
+    width: 3.5px;
+    height: 3.5px;
+}
+
+.box .point:nth-child(6) {
+    top: 700px;
+    right: 600px;
+    width: 3.5px;
+    height: 3.5px;
+}
+
+.box .point:nth-child(7) {
+    top: 700px;
+    right: 100px;
+    width: 3.5px;
+    height: 3.5px;
+}
+
+.box .point:nth-child(8) {
+    top: 700px;
+    right: 1200px;
+    width: 3.5px;
+    height: 3.5px;
+}
+
+.box .point:nth-child(9) {
+    top: 80px;
+    right: 1210px;
+    width: 2px;
+    height: 2px;
+}
+
+.box .point:nth-child(10) {
+    top: 130px;
+    right: 1290px;
+    width: 1.5px;
+    height: 1.5px;
+}
+
+.box .point:nth-child(11) {
+    top: 300px;
+    right: 1450px;
+    width: 1.5px;
+    height: 1.5px;
+}
+
+.box .point:nth-child(12) {
+    top: 534px;
+    right: 1175px;
+    width: 1.5px;
+    height: 1.5px;
+}
+
+.box .point:nth-child(13) {
+    top: 433px;
+    right: 1032px;
+    width: 1.5px;
+    height: 1.5px;
+}
+
+.box .point:nth-child(14) {
+    top: 698px;
+    right: 982px;
+    width: 1.5px;
+    height: 1.5px;
+}
+
+.box .point:nth-child(15) {
+    top: 120px;
+    right: 129px;
+    width: 1.5px;
+    height: 1.5px;
+}
+
+.box .point:nth-child(16) {
+    top: 239px;
+    right: 349px;
+    width: 1.5px;
+    height: 1.5px;
+}
+
+.box .point:nth-child(17) {
+    top: 439px;
+    right: 249px;
+    width: 1.5px;
+    height: 1.5px;
+}
+
+.box .point:nth-child(18) {
+    top: 559px;
+    right: 649px;
+    width: 1.5px;
+    height: 1.5px;
+}
+
+.box .point:nth-child(19) {
+    top: 10px;
+    right: 649px;
+    width: 1.5px;
+    height: 1.5px;
+}
+
+.box .point:nth-child(20) {
+    top: 359px;
+    right: 749px;
+    width: 1.5px;
+    height: 1.5px;
+}
+
+/* ========== BODY ========== */
+.title h1 {
+    font-size: var(--biggest-font-size);
+}
