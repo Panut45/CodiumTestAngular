@@ -1,0 +1,19 @@
+.decrease {
+    padding-right: 0.5rem;
+    padding-left: .5rem;
+}
+
+.increase {
+    padding-right: 0.5rem;
+    padding-left: .5rem;
+}
+
+input {
+    border-radius: 0;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+button {
+    border-radius: 0 0 0 0;
+}
